@@ -3,9 +3,9 @@ import random
 
 
 #Create the rooms
-b1Rooms = ['Cruella\'s Room','Gaston\'s Room','Scar\'s Room','Maleficient\'s Room','Jafar\'s Room']#level Counter 0-4 - Floor 1
-b2Rooms = ['Anakin\'s Room','Kylo\'s Room','Darth Maul\'s Room','Snoke\'s Room','Hux\'s Room']#level counter 5-9 - Floor 2
-b3Rooms = ['Mystique\'s Room','Catwoman\'s Room','Lex\'s Room','Penguin\'s Room','Bane\'s Room']#level counter 10-14 - Floor 3
+b1Rooms = ['Lake of the Maiden','Swamp of Dawn','Parallel Plains','Floating Spires','Goliath\'s Tomb']#level Counter 0-4 - Floor 1
+b2Rooms = ['Pit of Confusion','Valley of the Griffon','Mermaid\'s Meadow','Siren\'s Room','Sapphire Falls']#level counter 5-9 - Floor 2
+b3Rooms = ['Graveyard','Dracula\'s Catacomb','Crystal Cavern','Lava Pit','Dragon\'s Lair']#level counter 10-14 - Floor 3
 
 #random objects that can be found in rooms
 roomObject = ['sword', 'magic stones','nothing']
