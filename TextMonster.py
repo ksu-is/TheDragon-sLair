@@ -19,9 +19,8 @@ levelCounter = 0
 #See if our player is dead so we can break out of loop execution
 playerDead = 0
 
-
-
-
+#Added random number generator for rolling a D20 to determine successful attacks
+dice=random.randint(1,20)
 
 
 #function to ask the user what direction they want to go and some logic to do something with it. 
