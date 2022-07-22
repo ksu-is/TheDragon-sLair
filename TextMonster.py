@@ -158,7 +158,12 @@ def monsterAction(levelCounter):
         print("                                     \'.__)")
         if levelCounter < 14:
             if len(userItems) == 0:
-                print("Sorry, you died.")
+                print("\\     /  ____              _____     _______   _______   _____  ")
+                print(" \\   /  /    \\  |      |   |    \       |      |         |    \\")
+                print("  \\ /  |      | |      |   |     \\      |      |___      |     \\")
+                print("   |   |      | |      |   |      |     |      |         |      |")
+                print("   |   |      | |      |   |     /      |      |         |     /")
+                print("   |    \____/   \\____/    |____/    ___|___   |______   |____/")
                 playerDead = 1
                 print(" ")
             else:
