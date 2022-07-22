@@ -169,6 +169,7 @@ def monsterAction(levelCounter):
             else:
                 bagSelection = input("You have " + str(userItems) + " in your bag. What would you like to use? ")
                 if bagSelection == 'magic stones' or 'sword':
+                    print(dice)
                     removeItem(bagSelection)
                     print('Congratulations! You beat the monster!')
     elif levelCounter == 14:
