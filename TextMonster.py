@@ -169,9 +169,16 @@ def monsterAction(levelCounter):
             else:
                 bagSelection = input("You have " + str(userItems) + " in your bag. What would you like to use? ")
                 if bagSelection == 'magic stones' or 'sword':
-                    print(dice)
-                    removeItem(bagSelection)
-                    print('Congratulations! You beat the monster!')
+                    diceRoll = random.randint(1,20)
+                    if diceRoll >= 10:
+                        print(diceRoll)
+                        removeItem(bagSelection)
+                        print('Congratulations! You beat the monster!')
+                    else:
+                        print(diceRoll)
+                        removeItem(bagSelection)
+                        playerDead = 1
+                        print("You lose this fight.")
     elif levelCounter == 14:
         print("You must have both magic stones and swords to win.")
         #sets cannot take duplicates, so if the user has an extra sword or magic stones, we take them out.
