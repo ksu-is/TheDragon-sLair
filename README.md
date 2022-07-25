@@ -9,3 +9,9 @@
 #replaced the "sorry, you died." text with a YOU DIED text image
 
 #next step is to find a way to get the fight outcome to be based on the D20 dice roll
+
+#diceRoll has been added to determine the outcome of the monster fight.
+
+#rolls a number between 1 - 20, a number >= 10 results in a successful outcome
+
+#the else part of the diceRoll if statement results in losing the fight and breaks the loop forcing one the have to reinitiate the dungeon
